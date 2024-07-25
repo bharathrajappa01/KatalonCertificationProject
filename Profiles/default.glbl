@@ -19,4 +19,14 @@
       <initValue>'hUKwJTbofgPU9eVlw/CnDQ=='</initValue>
       <name>PASSWORD</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'OrangeHRM OS 5.6.1'</initValue>
+      <name>APP_NAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'© 2005 - 2024 OrangeHRM, Inc. All rights reserved.'</initValue>
+      <name>TRADEMARK</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

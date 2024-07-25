@@ -17,18 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/*
+ *  Open a browser, navigate to a specific URL, maximize the window, login to a website, and verify the presence of a text.
+ *
+ *  1. Open a browser with an empty URL.
+ *  2. Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.
+ *  3. Maximize the window.
+ *  4. Set text 'Admin' in the username input field.
+ *  5. Set encrypted text in the password input field.
+ *  6. Click on the login button.
+ *  7. Verify that the text 'Dashboard' is present on the page.
+
+
+ *
+ */
+// Open a browser with an empty URL
 WebUI.openBrowser('')
 
+// Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
+// Maximize the window
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/LoginPage_Objects/New Folder/loginUsername_inputField'), 'Admin')
+// Set text 'Admin' in the username input field
+WebUI.setText(findTestObject('Object Repository/Studio Assist AI Obj Repo/Login/input_Username_username'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage_Objects/New Folder/loginPassword_inputField'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+// Set encrypted text in the password input field
+WebUI.setEncryptedText(findTestObject('Object Repository/Studio Assist AI Obj Repo/Login/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Object Repository/LoginPage_Objects/New Folder/login_btn'))
+// Click on the login button
+WebUI.click(findTestObject('Object Repository/Studio Assist AI Obj Repo/Login/button_Login'))
 
-WebUI.verifyTextPresent('Dashboard', false)
-
-
+// Verify that the text 'Dashboard' is present on the page
+WebUI.verifyElementText(findTestObject('Object Repository/Studio Assist AI Obj Repo/Login/h6_Dashboard'), 'Dashboard')

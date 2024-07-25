@@ -17,18 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+/*
+ *  Once Logged in, click on Admin link on the left side of the page and verify that Admin page is displayed
+ *
+ *  1. Call Admin_AI_TC test case
+ *  2. Click on Admin_LeftPanel element from Admin object repository
+ *  3. Verify that Username field is displayed
+ *  4. Enter Admin in the Username field
+ *  5. Click on Search button
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.maximizeWindow()
+ *
+ */
+// Call Admin_AI_TC test case
+WebUI.callTestCase(findTestCase('Katalon Studio Assist AI/Admin_AI_TC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/LoginPage_Objects/New Folder/loginUsername_inputField'), 'Admin')
+// Click on Admin_LeftPanel element from Admin object repository
+WebUI.click(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/Admin_LeftPanel'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage_Objects/New Folder/loginPassword_inputField'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+// Verify that Username field is displayed
+WebUI.verifyElementPresent(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/Username'), 30)
 
-WebUI.click(findTestObject('Object Repository/LoginPage_Objects/New Folder/login_btn'))
+// Enter Admin in the Username field
+WebUI.setText(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/Username'), 'Admin')
 
-WebUI.verifyTextPresent('Dashboard', false)
-
+// Click on Search button
+WebUI.click(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/Search button'))
 

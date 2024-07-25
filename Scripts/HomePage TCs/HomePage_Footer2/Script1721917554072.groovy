@@ -31,4 +31,8 @@ WebUI.click(findTestObject('Object Repository/LoginPage_Objects/New Folder/login
 
 WebUI.verifyTextPresent('Dashboard', false)
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage_Objects/Footer2'), 10)
 
+WebUI.verifyMatch(WebUI.getAttribute(findTestObject('Object Repository/HomePage_Objects/Footer2'), 'innerText'), GlobalVariable.TRADEMARK, false)
+
+WebUI.closeBrowser()
