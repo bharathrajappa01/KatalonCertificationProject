@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Admin_AI_TC</name>
+   <name>Admin_SystemUser_minimize</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d6447b1c-db57-40c5-826a-3f3004e111bf</testCaseGuid>
+   <testCaseGuid>c065b67c-cb44-4600-8053-5e9b82cf265c</testCaseGuid>
 </TestCaseEntity>

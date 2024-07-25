@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin_SearchUser_UserNotFound_AI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af214146-cc52-47ad-a6ee-38c6eb129c44</testCaseGuid>
+</TestCaseEntity>

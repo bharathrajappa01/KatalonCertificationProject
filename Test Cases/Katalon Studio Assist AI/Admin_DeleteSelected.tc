@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin_DeleteSelected</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe42bf7d-9e1d-4dd8-a248-37e5704c4aae</testCaseGuid>
+</TestCaseEntity>

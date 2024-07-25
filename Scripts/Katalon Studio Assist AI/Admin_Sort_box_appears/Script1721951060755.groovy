@@ -18,29 +18,21 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /*
- *  Once Logged in, click on Admin link on the left side of the page and verify that Admin page is displayed
+ *  Sort box appears
  *
- *  1. Call Admin_AI_TC test case
+ *  1. Call Login_AI_TC test case
  *  2. Click on Admin_LeftPanel element from Admin object repository
- *  3. Verify that Username field is displayed
- *  4. Enter Admin in the Username field
- *  5. Click on Search button
-
-
- *
+ *  3. Click on sort button on username column
+ *  4. Verify that sort box appears
  */
-// Call Admin_AI_TC test case
-WebUI.callTestCase(findTestCase('Katalon Studio Assist AI/Admin_AI_TC'), [:], FailureHandling.STOP_ON_FAILURE)
+// Call Login_AI_TC test case
+WebUI.callTestCase(findTestCase('Test Cases/Katalon Studio Assist AI/Login_AI_TC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Click on Admin_LeftPanel element from Admin object repository
 WebUI.click(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/Admin_LeftPanel'))
 
-// Verify that Username field is displayed
-WebUI.verifyElementPresent(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/Username'), 30)
+// Click on sort button on username column
+WebUI.click(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/Username sort'))
 
-// Enter Admin in the Username field
-WebUI.setText(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/Username'), 'Admin')
-
-// Click on Search button
-WebUI.click(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/Search button'))
-
+// Verify that sort box appears
+WebUI.verifyElementPresent(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/Asc_Desc_box'), 20)

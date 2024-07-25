@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin_SearchUser_ResetBtn</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>36d4094a-856c-438a-9054-f8296fbcde73</testCaseGuid>
+</TestCaseEntity>

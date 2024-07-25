@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin_SystemUser_SearchFields</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1f852c2-fa3b-4f53-98af-0f5d914df206</testCaseGuid>
+</TestCaseEntity>
