@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HomePage_LP_Collapse</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da61400d-7c45-47eb-9870-392e80977bb6</testCaseGuid>
+</TestCaseEntity>

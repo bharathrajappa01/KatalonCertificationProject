@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InvalidLogin_ScriptMode_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fec4d321-07e1-4fbd-9220-a2f4180efc67</testCaseGuid>
+</TestCaseEntity>

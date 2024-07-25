@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HomePage_VisibleCards</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8b02f81e-6e96-46bd-a147-afd7860e6ed9</testCaseGuid>
+</TestCaseEntity>

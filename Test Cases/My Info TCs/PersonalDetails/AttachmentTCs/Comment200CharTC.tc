@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Comment200CharTC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>82cb5af0-d9d8-4fd8-8867-e8417cb0efef</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bfe693e4-6a01-41fc-90fe-4a564d14fd6b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget purus eget lectus auctor tempor. Curabitur scelerisque nisl ut quam feugiat, id suscipit libero fermentum. Integer gravida nisi nec1'</defaultValue>
+      <description></description>
+      <id>bfe693e4-6a01-41fc-90fe-4a564d14fd6b</id>
+      <masked>false</masked>
+      <name>commentText</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VariablesDemo_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>722e70f2-9a06-4be7-a1ee-6b266309a06e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d5697de-e50a-4dde-b3eb-2dcddd154aa1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>3d5697de-e50a-4dde-b3eb-2dcddd154aa1</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+</TestCaseEntity>

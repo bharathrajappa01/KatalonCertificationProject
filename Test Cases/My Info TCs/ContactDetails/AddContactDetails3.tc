@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddContactDetails3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>87f14d2a-2039-454c-9a8a-9f6622cfb59d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3461bcc7-775e-4759-b6db-493cb9f97b66</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21b72278-5494-4740-8ba5-7e463697d6ab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'workEmail@gmail.com'</defaultValue>
+      <description></description>
+      <id>3461bcc7-775e-4759-b6db-493cb9f97b66</id>
+      <masked>false</masked>
+      <name>workEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'otherEmail@gmail.com'</defaultValue>
+      <description></description>
+      <id>21b72278-5494-4740-8ba5-7e463697d6ab</id>
+      <masked>false</masked>
+      <name>otherEmail</name>
+   </variable>
+</TestCaseEntity>

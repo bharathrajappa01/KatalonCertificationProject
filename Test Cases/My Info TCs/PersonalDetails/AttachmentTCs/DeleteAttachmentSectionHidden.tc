@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeleteAttachmentSectionHidden</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d1aa1bd-a8a2-42ba-8e0b-1eefebb1160d</testCaseGuid>
+</TestCaseEntity>

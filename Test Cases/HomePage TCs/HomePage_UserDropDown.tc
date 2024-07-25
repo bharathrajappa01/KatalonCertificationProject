@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HomePage_UserDropDown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f56484c5-6cb2-403d-b858-f66104f9a4c5</testCaseGuid>
+</TestCaseEntity>

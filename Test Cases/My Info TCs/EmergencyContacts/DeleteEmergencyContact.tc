@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeleteEmergencyContact</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a57620d1-59e7-42a9-9cfe-fa22cb0a0e41</testCaseGuid>
+</TestCaseEntity>

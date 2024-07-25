@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersonalDetails3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da5cbb2a-3807-45ca-a9f7-3d9e934d1f28</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd6cd34b-1ed4-41e2-9036-176880cb9370</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ee38073-b532-455c-b8ae-72adc88b663a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1981-22-07'</defaultValue>
+      <description></description>
+      <id>cd6cd34b-1ed4-41e2-9036-176880cb9370</id>
+      <masked>false</masked>
+      <name>dob</name>
+   </variable>
+   <variable>
+      <defaultValue>'Indian'</defaultValue>
+      <description></description>
+      <id>3ee38073-b532-455c-b8ae-72adc88b663a</id>
+      <masked>false</masked>
+      <name>nationality</name>
+   </variable>
+</TestCaseEntity>

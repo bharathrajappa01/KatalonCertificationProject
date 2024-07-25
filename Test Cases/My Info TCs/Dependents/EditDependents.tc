@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EditDependents</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e464065f-8796-4194-a491-84841782cd1e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>70f5a08d-f78b-4442-b0c0-ff3f4a60783f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1975-15-04'</defaultValue>
+      <description></description>
+      <id>70f5a08d-f78b-4442-b0c0-ff3f4a60783f</id>
+      <masked>false</masked>
+      <name>new_dob</name>
+   </variable>
+</TestCaseEntity>

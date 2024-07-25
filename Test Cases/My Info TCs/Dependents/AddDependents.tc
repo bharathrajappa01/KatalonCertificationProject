@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddDependents</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>64d435a2-c8ab-4798-9231-ea258675f675</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>106774d4-78fe-46d4-a300-589c13fc67ff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cab2448e-9318-40e4-acbd-01155e43f812</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Roger Binny'</defaultValue>
+      <description></description>
+      <id>106774d4-78fe-46d4-a300-589c13fc67ff</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'1981-30-01'</defaultValue>
+      <description></description>
+      <id>cab2448e-9318-40e4-acbd-01155e43f812</id>
+      <masked>false</masked>
+      <name>dob</name>
+   </variable>
+</TestCaseEntity>

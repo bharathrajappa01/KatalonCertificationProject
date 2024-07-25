@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HomePage_UserDropDown_LogoutLink</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3c3ba045-e2cb-4a17-a00b-4164b3a46253</testCaseGuid>
+</TestCaseEntity>

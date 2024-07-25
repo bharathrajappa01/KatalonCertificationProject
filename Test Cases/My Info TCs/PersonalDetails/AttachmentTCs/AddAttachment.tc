@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddAttachment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>646df361-0194-4e51-be0b-f8dfaabcbdcd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>19a79459-7e24-47d1-9f7a-4c457fa93b0e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget purus eget lectus auctor tempor. Curabitur scelerisque nisl ut quam feugiat, id suscipit libero fermentum. Integer gravida nisi nec'</defaultValue>
+      <description></description>
+      <id>19a79459-7e24-47d1-9f7a-4c457fa93b0e</id>
+      <masked>false</masked>
+      <name>commentText</name>
+   </variable>
+</TestCaseEntity>

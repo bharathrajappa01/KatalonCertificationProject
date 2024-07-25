@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add 5 Attachments</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a4897244-a31c-4fb3-9ad1-316fa8ab9648</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2936ce12-1777-4efd-93e9-06a8a84d6263</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget purus eget lectus auctor tempor. Curabitur scelerisque nisl ut quam feugiat, id suscipit libero fermentum. Integer gravida nisi nec'</defaultValue>
+      <description></description>
+      <id>2936ce12-1777-4efd-93e9-06a8a84d6263</id>
+      <masked>false</masked>
+      <name>commentText</name>
+   </variable>
+</TestCaseEntity>
