@@ -6,19 +6,19 @@
    <elementGuidId>b906d49d-6687-4ee0-b6c7-dfec4ebcc28c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[2]/div/span</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '(1) Record Found' or . = '(1) Record Found')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.orangehrm-horizontal-padding.orangehrm-vertical-padding > span.oxd-text.oxd-text--span</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '(1) Record Found' or . = '(1) Record Found')]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[2]/div/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
