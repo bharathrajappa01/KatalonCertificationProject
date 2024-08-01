@@ -10,18 +10,29 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
+
+import org.openqa.selenium.By
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('LoginPage TCs/Login_RecordMode_TC'), [:], FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'RefreshBrowser.refreshBrowser'()
+CustomKeywords.'Wait.wait'(5)
+int count1 = CustomKeywords.'InputTag.getCountOfInputTags'(findTestObject('Object Repository/HomePage_Objects/homePage_html'))
+KeywordUtil.logInfo("No of Inputs tags are: "+count1)
+
 WebUI.click(findTestObject('Object Repository/HomePage_Objects/LeftPanel/My Info'))
-WebUI.click(findTestObject('Object Repository/MyInfo_Objects/Job/a_Job'))
-WebUI.click(findTestObject('Object Repository/MyInfo_Objects/Job/span_Full-Time Permanent_oxd-switch-input oxd-switch-input--active --label-right'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Job/input_Contract Start Date_oxd-input oxd-input--active'), 10)
-WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Job/input_Contract End Date_oxd-input oxd-input--active'), 10)
-WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Job/div_BrowseNo file selected'), 10)
-WebUI.re
+int count2 = CustomKeywords.'InputTag.getCountOfInputTags'(findTestObject('Object Repository/HomePage_Objects/homePage_html'))
+KeywordUtil.logInfo("No of Inputs tags are: "+count2)
+
+int noOfScriptTags = CustomKeywords.'ScriptCK.getNoOfScriptTags'(By.xpath("//script"))
+KeywordUtil.logInfo("No of Script tags are: "+noOfScriptTags)
+
+CustomKeywords.'Close.closeBrowser'()
+

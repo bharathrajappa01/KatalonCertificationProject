@@ -18,7 +18,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
+WebUI.refresh()
+WebUI.delay(3)
 WebUI.scrollToPosition(0, 9999)
 WebUI.click(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/button_Add'))
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/DeleteAttachment/Columns/div_File Name'), 5)

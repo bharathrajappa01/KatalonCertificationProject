@@ -17,13 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*
- *  Once Logged in, click on Admin link on the left side of the page and search for user that does not exist
- *
- *  1. Call Login_AI_TC test case
- *  2. Click on Admin_LeftPanel element from Admin object repository
- *  3. Click on main check box
- *  4. Verify that Delete Selected button appears
- *  5. Click on main check box
- *  6. Verify that Delete Selected button disappears
- */
+WebUI.callTestCase(findTestCase('LoginPage TCs/Login_RecordMode_TC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/HomePage_Objects/LeftPanel/My Info'))
+WebUI.click(findTestObject('Object Repository/MyInfo_Objects/Salary/Salary'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Salary/Salary Component'), 10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Salary/Amount'), 10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Salary/Currency'), 10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Salary/Pay Frequency'), 10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Salary/Direct Deposit Amount'), 10)

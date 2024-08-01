@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <value>//*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/div/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>38866013-d58f-4f73-8e6d-c60f53f17a90</webElementGuid>
+      <webElementGuid>93bcb086-2ced-4b65-86d9-abac1fdf2791</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fb42a7d0-9cf4-44a1-8833-88b8fa28e707</webElementGuid>
+      <webElementGuid>63da3b60-0f68-463b-bec2-5bb767b6a505</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-button oxd-button--medium oxd-button--text</value>
-      <webElementGuid>92f77ee9-9924-4e8f-b246-a279e7f97483</webElementGuid>
+      <webElementGuid>51364fbc-ca78-4725-a03d-7b2b52b689be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Add </value>
-      <webElementGuid>2ec4968e-9b34-43f9-b645-7bc7b03fc21d</webElementGuid>
+      <webElementGuid>c61f7a1c-64e4-4ded-b752-07170df21457</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-edit-employee&quot;]/div[@class=&quot;orangehrm-edit-employee-content&quot;]/div[@class=&quot;orangehrm-horizontal-padding orangehrm-vertical-padding&quot;]/div[@class=&quot;orangehrm-action-header&quot;]/button[@class=&quot;oxd-button oxd-button--medium oxd-button--text&quot;]</value>
-      <webElementGuid>e4730e67-fe62-40c8-8aca-9aa6317815b0</webElementGuid>
+      <webElementGuid>72d4381d-999d-4421-8466-58411f41969d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>1a7eff7c-b292-487c-b74d-55004e2ac21c</webElementGuid>
+      <webElementGuid>a4249d33-6957-4c45-9d6f-62ce39379b08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/div/button</value>
-      <webElementGuid>7691dbd7-90e3-4565-b82c-aaaebece310c</webElementGuid>
+      <webElementGuid>9656b15f-92a5-4aca-b23e-5fb425f48f48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Memberships'])[1]/following::button[1]</value>
-      <webElementGuid>a25e7cb9-f736-4dfa-81fd-acbd0476c573</webElementGuid>
+      <webElementGuid>100402d0-aa18-4fbe-80ab-4f9f9077e408</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Add']/parent::*</value>
-      <webElementGuid>d84abb52-68cf-4e59-a51d-83082749d366</webElementGuid>
+      <webElementGuid>4dda6394-8cba-4185-aa73-754f9f3f75b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div/button</value>
-      <webElementGuid>98dc8385-0ef7-4f9c-b1b0-332b5ab82029</webElementGuid>
+      <webElementGuid>b6c81589-1cfc-40b6-93dd-0173b8b40257</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Add ' or . = ' Add ')]</value>
-      <webElementGuid>ce5159cb-80a7-456d-b44e-5cdbeaf0dcaf</webElementGuid>
+      <webElementGuid>e335ef17-d086-4974-92a7-56c994000db1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

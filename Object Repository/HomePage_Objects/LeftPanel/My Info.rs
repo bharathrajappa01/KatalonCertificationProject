@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>df15af01-a73a-416d-a935-16998ae9685e</webElementGuid>
+      <webElementGuid>22fe09b8-e79c-4f1b-a90a-4c819308b329</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-text oxd-text--span oxd-main-menu-item--name</value>
-      <webElementGuid>dc5a014e-87fd-43d4-be09-3e65790780eb</webElementGuid>
+      <webElementGuid>1c805f82-ae5e-4a85-b800-acbcc2c5ace5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>My Info</value>
-      <webElementGuid>f414daf6-91f4-412d-b274-d9f5ad7b9651</webElementGuid>
+      <webElementGuid>36b65e8d-a2a6-4f45-96ba-67dfda7d2e87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]/span[@class=&quot;oxd-text oxd-text--span oxd-main-menu-item--name&quot;]</value>
-      <webElementGuid>b1eefdfe-95db-4cc9-804d-08e521a56b52</webElementGuid>
+      <webElementGuid>cd4f5a57-5d3f-439f-b6c5-6a8b7b31b8a2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[6]/a/span</value>
-      <webElementGuid>e0323c42-c277-4aed-a363-8117b27a88e8</webElementGuid>
+      <webElementGuid>46adeee3-cc90-42d5-9a43-4a503e9b4d59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='My Info']/parent::*</value>
-      <webElementGuid>0548fa03-a855-418e-bb56-2c3e5087b9e2</webElementGuid>
+      <webElementGuid>4de3630c-5148-4597-84a5-8b16ed375038</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]/a/span</value>
-      <webElementGuid>0c8bdd0f-e67d-4323-bb40-5424f35ed758</webElementGuid>
+      <webElementGuid>32ee77ff-8880-4ee5-b25f-7f255d94008b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +84,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'My Info' or . = 'My Info')]</value>
-      <webElementGuid>c292fb1f-25a8-4536-8377-832644da0a06</webElementGuid>
+      <webElementGuid>1f677dd5-7b86-4e9a-aa12-8bec641f8d91</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

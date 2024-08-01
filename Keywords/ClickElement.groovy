@@ -9,7 +9,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 
 public class ClickElement {
-	
+
 	@Keyword
 	def clickElement(String testObjectId) {
 		try {

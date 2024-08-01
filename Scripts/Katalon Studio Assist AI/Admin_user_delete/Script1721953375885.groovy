@@ -17,11 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('LoginPage TCs/Login_RecordMode_TC'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('Object Repository/HomePage_Objects/LeftPanel/My Info'))
-WebUI.click(findTestObject('Object Repository/MyInfo_Objects/Job/a_Job'))
-WebUI.click(findTestObject('Object Repository/MyInfo_Objects/Job/span_Full-Time Permanent_oxd-switch-input oxd-switch-input--active --label-right'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Job/input_Contract Start Date_oxd-input oxd-input--active'), 10)
-WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Job/input_Contract End Date_oxd-input oxd-input--active'), 10)
-WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Job/div_BrowseNo file selected'), 10)
-WebUI.re
+/*
+ *  Verify if admin user is not deleted
+ *
+ *  1. Call Login_AI_TC test case
+ *  2. Click on Admin_LeftPanel element from Admin object repository
+ *  3. Click on delete button for Admin user
+ *  4. Verify that error message is shown as admin user cannot be deleted
+
+ */
+// Call Login_AI_TC test case
+WebUI.callTestCase(findTestCase('Test Cases/Katalon Studio Assist AI/Login_AI_TC'), [:], FailureHandling.STOP_ON_FAILURE)
+
+// Click on Admin_LeftPanel element from Admin object repository
+WebUI.click(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/Admin_LeftPanel'))
+
+// Click on delete button for Admin user
+WebUI.click(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/First delete button'))
+
+// Verify that error message is shown as admin user cannot be deleted
+WebUI.verifyElementVisible(findTestObject('Object Repository/Studio Assist AI Obj Repo/Admin/Cannot be deleted'))

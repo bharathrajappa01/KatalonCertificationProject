@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Admin_Sort_Username</name>
+   <name>KeywordsTest</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5ca80316-dded-43ae-9c46-de3909d95585</testCaseGuid>
+   <testCaseGuid>bcee2ef5-2a65-4314-9a07-b37b2cd62609</testCaseGuid>
 </TestCaseEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>UserName</name>
+   <name>Currency</name>
    <tag></tag>
-   <elementGuidId>f4cdd9c4-5729-4e28-a009-ecefa012722e</elementGuidId>
+   <elementGuidId>5f5e3974-4e3c-4a4a-aaa8-06780d77ffec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[3]/div/div[1]/div/div[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div[1]/div[1]/header/div[1]/div[3]/ul/li/span/p</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

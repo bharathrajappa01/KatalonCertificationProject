@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>UserName</name>
+   <name>homePage_html</name>
    <tag></tag>
-   <elementGuidId>f4cdd9c4-5729-4e28-a009-ecefa012722e</elementGuidId>
+   <elementGuidId>718b5ca5-e04e-4067-8301-b5521d990e2b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div[1]/div[1]/header/div[1]/div[3]/ul/li/span/p</value>
+         <value>//html</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

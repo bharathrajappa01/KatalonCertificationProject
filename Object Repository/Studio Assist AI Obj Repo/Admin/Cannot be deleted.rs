@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>UserName</name>
+   <name>Cannot be deleted</name>
    <tag></tag>
-   <elementGuidId>f4cdd9c4-5729-4e28-a009-ecefa012722e</elementGuidId>
+   <elementGuidId>24fcb5b0-e20c-4672-8864-4eedf180caeb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div[1]/div[1]/header/div[1]/div[3]/ul/li/span/p</value>
+         <value>//*[@id=&quot;oxd-toaster_1&quot;]/div/div[1]/div[2]/p[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
