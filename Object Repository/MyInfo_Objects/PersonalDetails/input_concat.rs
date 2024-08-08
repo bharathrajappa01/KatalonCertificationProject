@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_concat(Driver, , s License Number)_oxd-input oxd-input--focus</name>
+   <name>input_concat</name>
    <tag></tag>
    <elementGuidId>e4fb09e9-8b5f-405f-bd84-970570c24db9</elementGuidId>
    <selectorCollection>

@@ -55,8 +55,8 @@ WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/Immigration/input
 CustomKeywords.'SelectAllAndClear.selectAllAndClear'(findTestObject('Object Repository/MyInfo_Objects/Immigration/input_Eligible Review Date_oxd-input oxd-input--focus'))
 WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/Immigration/input_Eligible Review Date_oxd-input oxd-input--focus'), reviewDate)
 
-CustomKeywords.'ClearField.clearField'(findTestObject('Object Repository/MyInfo_Objects/Immigration/textarea_Comments_oxd-textarea oxd-textarea--focus oxd-textarea--resize-vertical'))
-WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/Immigration/textarea_Comments_oxd-textarea oxd-textarea--focus oxd-textarea--resize-vertical'), comments)
+CustomKeywords.'ClearField.clearField'(findTestObject('Object Repository/MyInfo_Objects/Immigration/textarea_Comments'))
+WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/Immigration/textarea_Comments'), comments)
 
 WebUI.click(findTestObject('Object Repository/MyInfo_Objects/Dependents/button_Save'))
 

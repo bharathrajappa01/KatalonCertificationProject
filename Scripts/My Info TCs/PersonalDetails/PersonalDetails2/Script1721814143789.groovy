@@ -25,8 +25,8 @@ WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/i
 CustomKeywords.'ClearField.clearField'(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/input_Other Id_oxd-input oxd-input--focus'))
 WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/input_Other Id_oxd-input oxd-input--focus'), otherId)
 
-CustomKeywords.'ClearField.clearField'(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/input_concat(Driver, , s License Number)_oxd-input oxd-input--focus'))
-WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/input_concat(Driver, , s License Number)_oxd-input oxd-input--focus'), driverLicenseNo)
+CustomKeywords.'ClearField.clearField'(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/input_concat'))
+WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/input_concat'), driverLicenseNo)
 
 CustomKeywords.'SelectAllAndClear.selectAllAndClear'(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/input_License Expiry Date_oxd-input oxd-input--focus'))
 WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/input_License Expiry Date_oxd-input oxd-input--focus'), driverLicenseExpiry)

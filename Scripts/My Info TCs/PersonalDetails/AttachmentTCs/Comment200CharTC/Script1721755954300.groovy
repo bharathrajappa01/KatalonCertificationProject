@@ -20,12 +20,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.scrollToPosition(0, 9999)
 WebUI.click(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/button_Add'))
-WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/textarea_Comment_oxd-textarea oxd-textarea-_74c597'), commentText)
+WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/textarea_Comment'), commentText)
 WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/200CharMsg'), 10)
 String text = WebUI.getAttribute(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/200CharMsg'), 'innerText')
 WebUI.verifyMatch(text, 'Should not exceed 200 characters', false)
 
-TestObject commentBox = findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/textarea_Comment_oxd-textarea oxd-textarea-_74c597')
+TestObject commentBox = findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/textarea_Comment')
 WebUI.sendKeys(commentBox, Keys.chord(Keys.END))
 WebUI.sendKeys(commentBox, Keys.chord(Keys.BACK_SPACE))
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/200CharMsg'), 10)

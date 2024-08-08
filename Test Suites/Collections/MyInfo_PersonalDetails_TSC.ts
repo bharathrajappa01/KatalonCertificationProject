@@ -3,8 +3,8 @@
    <description></description>
    <name>MyInfo_PersonalDetails_TSC</name>
    <tag></tag>
-   <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>SEQUENTIAL</executionMode>
+   <delayBetweenInstances>5</delayBetweenInstances>
+   <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>

@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/Add
 WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/div_BrowseNo file selected'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/textarea_Comment_oxd-textarea oxd-textarea-_74c597'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/textarea_Comment'), 
     0)
 
 WebUI.click(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/div_Browse'))
@@ -57,6 +57,6 @@ robot.keyRelease(KeyEvent.VK_CONTROL)
 robot.keyPress(KeyEvent.VK_ENTER)
 robot.keyRelease(KeyEvent.VK_ENTER)
 
-WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/textarea_Comment_oxd-textarea oxd-textarea-_74c597'), commentText)
+WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/textarea_Comment'), commentText)
 WebUI.click(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/saveBtn'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/CommonObjects/div_SuccessSuccessfully Updated'), 3)

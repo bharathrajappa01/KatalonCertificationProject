@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('LoginPage TCs/Login_RecordMode_TC'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Object Repository/HomePage_Objects/LeftPanel/My Info'))
 WebUI.click(findTestObject('Object Repository/MyInfo_Objects/Job/a_Job'))
-WebUI.click(findTestObject('Object Repository/MyInfo_Objects/Job/span_Full-Time Permanent_oxd-switch-input oxd-switch-input--active --label-right'))
+WebUI.click(findTestObject('Object Repository/MyInfo_Objects/Job/Full-Time Permanent'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Job/input_Contract Start Date_oxd-input oxd-input--active'), 10)
 WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Job/input_Contract End Date_oxd-input oxd-input--active'), 10)
 WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/Job/div_BrowseNo file selected'), 10)

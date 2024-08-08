@@ -37,7 +37,7 @@ for (int i = 1; i <= 5; i++) {
     WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/div_BrowseNo file selected'), 
         0)
 
-    WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/textarea_Comment_oxd-textarea oxd-textarea-_74c597'), 
+    WebUI.verifyElementPresent(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/textarea_Comment'), 
         0)
 
     WebUI.click(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/div_Browse'))
@@ -62,7 +62,7 @@ for (int i = 1; i <= 5; i++) {
 
     robot.keyRelease(KeyEvent.VK_ENTER)
 
-    WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/textarea_Comment_oxd-textarea oxd-textarea-_74c597'), 
+    WebUI.setText(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/textarea_Comment'), 
         commentText)
 
     WebUI.click(findTestObject('Object Repository/MyInfo_Objects/PersonalDetails/AddAttachment/saveBtn'))

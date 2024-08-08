@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Full-Time Permanent_oxd-switch-input oxd-switch-input--active --label-right</name>
+   <name>Full-Time Permanent</name>
    <tag></tag>
    <elementGuidId>c453ffb7-0161-4491-81cf-67dd74a20cba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.oxd-switch-input.oxd-switch-input--active.--label-right</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/form/div[2]/div/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.oxd-switch-input.oxd-switch-input--active.--label-right</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

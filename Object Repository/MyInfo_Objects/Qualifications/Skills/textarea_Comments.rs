@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Comments_oxd-textarea oxd-textarea--focus oxd-textarea--resize-vertical</name>
+   <name>textarea_Comments</name>
    <tag></tag>
    <elementGuidId>bc8c3e36-1dd8-4f0a-8112-ed9c34f4e73a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>textarea.oxd-textarea.oxd-textarea--focus.oxd-textarea--resize-vertical</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div[4]/div/form/div[2]/div/div/div/div[2]/textarea</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.oxd-textarea.oxd-textarea--focus.oxd-textarea--resize-vertical</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
